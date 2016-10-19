@@ -16,6 +16,7 @@ class ViewController: UIViewController,UIPickerViewDataSource, UIPickerViewDeleg
         statePicker.delegate = self
     }
 
+    @IBOutlet weak var sucessBtn: UIButton!
     @IBOutlet weak var statePicker: UIPickerView!
     @IBOutlet weak var statePickerBtn: UIButton!
     

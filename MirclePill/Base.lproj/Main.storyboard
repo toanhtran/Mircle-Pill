@@ -100,7 +100,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="STATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lah-gg-u5q">
-                                <frame key="frameInset" minX="36" minY="464" width="230" height="21"/>
+                                <frame key="frameInset" minX="40" minY="502" width="230" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="F5j-hg-bMu"/>
                                 </constraints>
@@ -109,7 +109,7 @@
                                 <color key="highlightedColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3M-WA-GeA">
-                                <frame key="frameInset" minX="40" minY="493" width="164" height="30"/>
+                                <frame key="frameInset" minX="40" minY="542" width="164" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="12" id="Epb-Ga-4iF"/>
                                     <constraint firstAttribute="width" constant="164" id="rpU-Op-Buf"/>
@@ -120,12 +120,20 @@
                                 </connections>
                             </button>
                             <pickerView hidden="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ubq-T6-TPy">
-                                <frame key="frameInset" minX="40" minY="531" height="90" maxX="73"/>
+                                <frame key="frameInset" minX="40" minY="531" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="6jg-le-jJF"/>
                                     <constraint firstAttribute="width" constant="262" id="Z3y-Am-mDt"/>
                                 </constraints>
                             </pickerView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r5q-uh-o8L">
+                                <frame key="frameInset" minX="65" minY="590" width="244" height="51"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="244" id="O4N-2p-nfr"/>
+                                    <constraint firstAttribute="height" constant="51" id="RHi-Kh-Opp"/>
+                                </constraints>
+                                <state key="normal" title="Button" image="buyNowBtn"/>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -136,6 +144,7 @@
                             <constraint firstItem="y2n-bw-ddk" firstAttribute="leading" secondItem="x8Y-12-bqv" secondAttribute="leading" id="5ej-Ty-chM"/>
                             <constraint firstItem="8r1-wu-6dI" firstAttribute="trailing" secondItem="TUw-Ns-Dsh" secondAttribute="trailing" id="8lj-TM-aRm"/>
                             <constraint firstItem="8r1-wu-6dI" firstAttribute="centerX" secondItem="TUw-Ns-Dsh" secondAttribute="centerX" id="8pJ-jq-kpj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="r5q-uh-o8L" secondAttribute="trailing" constant="25" id="90I-nz-xvJ"/>
                             <constraint firstItem="c3M-WA-GeA" firstAttribute="leading" secondItem="lah-gg-u5q" secondAttribute="leading" id="A8N-WV-GPa"/>
                             <constraint firstItem="lah-gg-u5q" firstAttribute="top" secondItem="VU3-kv-vUW" secondAttribute="bottom" constant="8" id="Dww-vP-GLB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Q9M-GV-Zag" secondAttribute="trailing" constant="105" id="ELF-hX-ZY1"/>
@@ -152,6 +161,7 @@
                             <constraint firstItem="K37-6w-8bD" firstAttribute="centerX" secondItem="Q9M-GV-Zag" secondAttribute="centerX" id="Rhk-Wx-h3i"/>
                             <constraint firstItem="VU3-kv-vUW" firstAttribute="top" secondItem="8r1-wu-6dI" secondAttribute="bottom" constant="8" id="Tq9-nm-9MZ"/>
                             <constraint firstItem="Ubq-T6-TPy" firstAttribute="top" secondItem="c3M-WA-GeA" secondAttribute="bottom" constant="8" id="V7d-Dg-fvK"/>
+                            <constraint firstItem="r5q-uh-o8L" firstAttribute="leading" secondItem="c3M-WA-GeA" secondAttribute="leading" id="W7v-PH-0km"/>
                             <constraint firstItem="VU3-kv-vUW" firstAttribute="leading" secondItem="8r1-wu-6dI" secondAttribute="leading" id="WDr-jg-myn"/>
                             <constraint firstItem="K37-6w-8bD" firstAttribute="top" secondItem="Q9M-GV-Zag" secondAttribute="bottom" constant="10" id="Xxe-C6-N3Z"/>
                             <constraint firstAttribute="trailingMargin" secondItem="y2n-bw-ddk" secondAttribute="trailing" constant="20" id="Ydx-pu-UnU"/>
@@ -174,6 +184,7 @@
                             <constraint firstItem="Ubq-T6-TPy" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mJz-a7-H43"/>
                             <constraint firstItem="VU3-kv-vUW" firstAttribute="trailing" secondItem="8r1-wu-6dI" secondAttribute="trailing" id="oW2-2W-CcS"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Ubq-T6-TPy" secondAttribute="trailing" constant="20" id="psQ-TU-qFW"/>
+                            <constraint firstItem="r5q-uh-o8L" firstAttribute="top" secondItem="c3M-WA-GeA" secondAttribute="bottom" constant="10" id="qGe-de-oDY"/>
                             <constraint firstItem="Q9M-GV-Zag" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="105" id="qIO-jb-Zwe"/>
                             <constraint firstItem="x8Y-12-bqv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="qIX-XU-kfa"/>
                             <constraint firstItem="zTN-ye-wnK" firstAttribute="top" secondItem="BrV-jH-7KA" secondAttribute="bottom" constant="8" id="sL2-ht-RBD"/>
@@ -184,6 +195,7 @@
                     </view>
                     <connections>
                         <outlet property="statePicker" destination="Ubq-T6-TPy" id="twp-od-c7G"/>
+                        <outlet property="sucessBtn" destination="r5q-uh-o8L" id="brN-kX-cQw"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -192,6 +204,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="buyNowBtn" width="225" height="45"/>
         <image name="miraclePillEmoji" width="90" height="90"/>
     </resources>
 </document>
